@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>select bar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入 CSS 樣式表 -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Ragic_立即科技有限公司</h1>
+        <ul>
+          <li><a href="#">關於我們</a></li>
+          <li><a href="#">產品</a></li>
+          <li><a href="#">聯絡我們</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Interview Question</h1>
+
+        Name: <input/>
+        <select multiple id="select1">
+          <option>Option 1</option> 
+          <option>Option 2</option> 
+          <option selected>Option 3</option>
+          <option>Option 4</option>
+          <option>Option 5</option>
+          <option>Option 6</option> 
+          <option>Option 7</option> 
+          <option>Option 8</option>
+          <option>Option 9</option>
+          <option>Option 10</option>
+          <option>Option 11</option> 
+          <option>Option 12</option> 
+          <option>Option 13</option>
+          <option>Option 14</option>
+          <option>Option 15</option>
+        </select>
+        <select multiple id="select2">
+          <option>蘋果</option>
+          <option selected>橘子</option>
+          <option>香蕉</option>
+          <option>西瓜</option>
+        </select>
+        Age: <input/>
+        
+      </section>
+    </main>
+    <button id="submitButton">submit</button>
+
+    <footer>
+      <p>版權所有 &copy; 2023 Anita Tsai</p>
+    </footer>
+  
+    <!-- 引入 JavaScript 腳本 -->
+    <script src="script.js"></script>
+    <script>
+      CustomSelect.init()
+      // CustomSelect.init([document.getElementById('select2')])
+    </script>
+  </body>
+</html>
